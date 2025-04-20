@@ -1,0 +1,27 @@
+#body{
+  font-size: 15px;
+  text-align: center;
+  margin: 7%;
+
+}
+
+
+#restaurant_list{
+  background-color: skyblue;
+}
+
+#restaurant_list_items{
+  background-color: rgb(211, 233, 247);
+  border: 5px;
+  padding-left: 30%;
+  padding-right: 30%;
+  border-color: black;
+}
+
+#table{
+  tr:hover{
+    background-color: lightcoral;
+    font-style: italic;
+  }
+  margin: auto;
+}

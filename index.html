@@ -3,12 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>맛집</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
   </head>
-  <body>
-    <h1>맛집을 소개해요</h1>
+  <body id="body">
+    <h1 style="background-color: lightcoral;">맛집을 소개해요</h1>
     <hr>
     <h3>페이지 목차</h3>
-    <ul>
+    <ul style="padding-left: 30%; padding-right: 30%;">
       <li><a href="#overview">페이지 개요</a></li>
       <li><a href="#restaurant_list">덕성여대 맛집 목록</a></li>
       <li><a href="#restaurant_detail">맛집 상세 정보</a></li>
@@ -27,7 +28,7 @@
     <h2 id="restaurant_list">
       덕성여대 맛집 목록(from. <a href="https://www.diningcode.com/list.dc?query=%EB%8D%95%EC%84%B1%EC%97%AC%EB%8C%80" target="_blank">다이닝코드</a>)
     </h2>
-    <ol type="1"> <!--맛집 리스트-->
+    <ol type="1" id="restaurant_list_items"> <!--맛집 리스트-->
       <li><a href="pages/place1.html" title="링크를 클릭하면 미성반점 상세 페이지로 이동">미성반점</a></li>
       <li><a href="pages/place2.html" title="링크를 클릭하면 춘천막국수 상세 페이지로 이동">춘천막국수</a></li>
       <li><a href="pages/place3.html" title="링크를 클릭하면 예와 손만두 상세 페이지로 이동">예와 손만두</a></li>
@@ -41,7 +42,7 @@
     </ol>
     <hr>
     <h2 id="restaurant_detail">맛집 상세 정보</h2>
-    <table border="1">
+    <table border="1" id="table">
       <thead>
         <tr>
           <th>대표이미지</th>
