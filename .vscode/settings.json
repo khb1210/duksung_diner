@@ -1,0 +1,7 @@
+{
+  "editor.tabSize": 2,
+  "files.autoSave": "afterDelay",
+  "editor.wordWrap": "on",
+  "editor.detectIndentation": true,
+  "liveServer.settings.port": 5501
+}
